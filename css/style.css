@@ -226,7 +226,7 @@ a:focus{
     right: -60%;
     height: 100%;
     background: rgba(1, 16, 25, 0.67);
-    position: absolute;
+    position: fixed;
     z-index: 9998;
     transition: 0.8s ease;
     top: 0;
