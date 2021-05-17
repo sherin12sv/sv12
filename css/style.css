@@ -171,7 +171,7 @@ a:focus{
 /*-- nav --*/
 /*-- menu --*/
 .mobile-nav-button {
-    position:absolute;
+    position:fixed;
        margin: 5em 0em 0;
     right: 8%;
     top: 0;
@@ -226,7 +226,7 @@ a:focus{
     right: -30%;
     height: 100%;
     background: rgba(1, 16, 25, 0.67);
-    position: absolute;
+    position: fixed;
     z-index: 9998;
     transition: 0.8s ease;
     top: 0;
@@ -1605,12 +1605,12 @@ color: #111 !important;
 	}
 }
 @media (max-width:991px){
-	/*.mobile-nav-button {
+	.mobile-nav-button {
 		position:fixed;
 		margin: 4em 0em 0;
 		right: 8%;
 		top: 0;
-	}*/
+	}
 	.w3_agile_header {
 		padding: 1em 5em 0 4.2em;
 	}
@@ -1942,7 +1942,7 @@ color: #111 !important;
 		letter-spacing: 1px;
 	}
 	.mobile-nav-button {
-		position: absolute;
+		position: fixed;
 		margin: 2.7em 0em 0;
 		right: 8%;
 		top: 0;
