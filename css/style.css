@@ -223,10 +223,10 @@ a:focus{
 .mobile-menu {
 	display: block;
      width: 18%;
-    right: -30%;
+    right: -60%;
     height: 100%;
     background: rgba(1, 16, 25, 0.67);
-    position: fixed;
+    position: absolute;
     z-index: 9998;
     transition: 0.8s ease;
     top: 0;
