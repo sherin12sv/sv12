@@ -21,7 +21,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!--<link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
 <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
 --></head>
-<body>
+<body onload="myFunction()">
+	<div id="bg">
+		<div id="loader">
+			<h1>LOADING...</h1>
+		</div>
+		
+	</div>
 <!-- banner -->
 <div class="banner_top" id="home">
 	<div data-vide-bg ="video/c">
@@ -1057,6 +1063,18 @@ fit: true
 
 <script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
 
+<script>
+	// $(document).ready(function(){
+		// 	$('div#loading').removeAttr('id');
+	// });
+	var preloader = document.getElementById("bg");
+	// window.addEventListener('load', function(){
+	// 	preloader.style.display = 'none';
+	// 	})
 
+	function myFunction(){
+		preloader.style.display = 'none';
+	};
+</script>
 </body>
 </html>
